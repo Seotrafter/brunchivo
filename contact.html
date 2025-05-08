@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Brunchivo - Café acogedor en Santiago de Chile</title>
+    <meta name="keywords" content="café, brunch, desayuno, Santiago, ambiente acogedor, sabores locales, comida fresca">
+    <meta name="description"
+        content="Brunchivo es un café encantador en Santiago de Chile, ideal para disfrutar de brunch, café artesanal y momentos inolvidables.">
+    <link href="img/ico.png" rel="icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="cookie-banner" class="cookie-banner">
+        <p>
+            Utilizamos cookies para mejorar tu experiencia. Al continuar, aceptas nuestra
+            <a href="cookie.html">Cookie-Richtlinie</a> y nuestros
+            <a href="terms.html">Términos y Condiciones</a>.
+        </p>
+        <div class="cookie-buttons">
+            <button id="accept-cookies">Aceptar</button>
+            <button id="decline-cookies">Rechazar</button>
+        </div>
+    </div>
+    <div class="position-relative nav-bar p-0">
+        <div class="container position-relative" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
+                <a href="/" class="navbar-brand">
+                    <h1 class="m-0 display-5 text-white"><span class="text-primary">Brunch</span>ivo</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="/" class="nav-item nav-link ">Inicio</a>
+                        <a href="about.html" class="nav-item nav-link">Sobre Nosotros</a>
+                        <a href="contact.html" class="nav-item nav-link active">Contáctanos</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="container-fluid bg-white">
+        <div class="container d-flex flex-column align-items-center">
+    
+            <div class="text-center pt-5">
+                <h6 class="text-primary font-weight-normal text-uppercase mb-2">Contáctanos</h6>
+                <h1 class="section-title mb-4">¿Tienes alguna pregunta? Escríbenos</h1>
+            </div>
+    
+            <div class="col-lg-7 my-3 py-3">
+                <div class="contact-form">
+                    <div id="success"></div>
+                    <form name="sentMessage" id="contactForm" action="thankyou.php" method="post">
+                        <div class="control-group mb-3">
+                            <input type="text" class="form-control p-4" id="name" name="name" placeholder="Tu Nombre"
+                                required>
+                        </div>
+                        <div class="control-group mb-3">
+                            <input type="email" class="form-control p-4" id="email" name="email" placeholder="Tu Correo Electrónico"
+                                required>
+                        </div>
+                        <div class="control-group mb-3">
+                            <input type="tel" class="form-control p-4" id="phone" name="phone" placeholder="Tu Teléfono"
+                                required>
+                        </div>
+                        <div class="control-group mb-4">
+                            <textarea class="form-control p-4" rows="6" id="message" name="message" placeholder="Tu Mensaje"
+                                required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-primary py-3 px-5" type="submit" id="sendMessageButton">Enviar Mensaje</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-md-5">
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-primary mb-4">Contáctanos</h4>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>Francisco Bilbao 7589, Las Condes, La Reina, Región
+                    Metropolitana, Chile</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+56 9 3705 9384</p>
+                <p><i class="fa fa-envelope mr-2"></i>contacto@brunchivo.cl</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-primary mb-4">Enlaces Rápidos</h4>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white mb-2" href="/"><i class="fa fa-angle-right mr-2"></i>Inicio</a>
+                    <a class="text-white mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>Sobre
+                        Nosotros</a>
+                    <a class="text-white mb-2" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contáctanos</a>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-primary mb-4">Información</h4>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white mb-2" href="privacy.html"><i class="fa fa-angle-right mr-2"></i>Política de
+                        privacidad</a>
+                    <a class="text-white mb-2" href="terms.html"><i class="fa fa-angle-right mr-2"></i>Términos y
+                        condiciones</a>
+                    <a class="text-white mb-2" href="cookie.html"><i
+                            class="fa fa-angle-right mr-2"></i>Cookie-Richtlinie</a>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="container border-top border-secondary pt-5">
+            <p class="m-0 text-center text-white">
+                &copy; <a class="text-white font-weight-bold" href="/">Brunchivo</a>. Todos los derechos reservados.
+            </p>
+
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
